@@ -1,7 +1,8 @@
 
-
 HOMEPAGE="https://launchpad.net/icontool"
 SRC_URI="http://launchpad.net/icontool/trunk/0.1/+download/${P}.tar.gz"
+
+DEPEND="perl(XML::Simple)"
 
 src_compile() {
 	cd ${B}
